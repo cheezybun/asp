@@ -44,6 +44,12 @@ import matplotlib.pyplot as plt
 import streamlit as st
 import seaborn as sns
 
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import mean_absolute_error
+from sklearn.ensemble import RandomForestRegressor
+from sklearn import preprocessing
+
 
 
 # Importing data
