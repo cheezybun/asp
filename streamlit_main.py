@@ -47,9 +47,9 @@ import seaborn as sns
 from sklearn import preprocessing
 
 # Importing data
-eda_data = pd.read_csv(r'https://github.com/cheezybun/asp/blob/13d6b9fd3ef1862d53a10b329dd8d6eeeaa6dedb/streamlit/airline_passenger_satisfaction.csv.csv')
-data = pd.read_csv(r'https://github.com/cheezybun/asp/blob/13d6b9fd3ef1862d53a10b329dd8d6eeeaa6dedb/streamlit/airline_passenger_satisfaction.csv.csv', index_col=False)
-df = pd.read_csv(r'https://github.com/cheezybun/asp/blob/13d6b9fd3ef1862d53a10b329dd8d6eeeaa6dedb/streamlit/airline_passenger_satisfaction.csv.csv')
+
+data = pd.read_csv(r'https://github.com/cheezybun/asp/blob/13d6b9fd3ef1862d53a10b329dd8d6eeeaa6dedb/streamlit/airline_passenger_satisfaction.csv', index_col=False)
+
 
 
 
